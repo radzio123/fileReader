@@ -1,0 +1,23 @@
+{
+  "name": "FileRead",
+  "type": "flogo:activity",
+  "ref": "github.com/retgits/flogo-components/activity/gzip",
+  "version": "0.1.0",
+  "title": "GNU Zip",
+  "description": "Read File",
+  "author": "Radzio",
+  "homepage": "https://github.com/retgits/flogo-components/tree/master/activity/gzip",
+  "inputs": [
+    {
+      "name": "Source file",
+      "type": "string",
+      "required": true
+    }
+  ],
+  "outputs": [
+    {
+      "name": "result",
+      "type": "string"
+    }
+  ]
+}
